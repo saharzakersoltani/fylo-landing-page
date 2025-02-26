@@ -246,6 +246,13 @@ blockquote {
   /* box-shadow: 0 5px 15px 5px #00000015; */
 }
 
+/* FOOTER */
+.footer-logo {
+  /* -webkit-filter: brightness(0) invert(1); */
+  filter: brightness(0) invert(1);
+  padding-bottom: 32px;
+}
+
 .footer-background {
   background-color: hsl(243, 87%, 12%);
 }
@@ -295,6 +302,8 @@ blockquote {
 .attribution {
   color: hsl(240, 75%, 98%);
   margin-top: 64px;
+  font-size: 12px;
+  text-align: center;
 }
 
 .attribution-link:link,
